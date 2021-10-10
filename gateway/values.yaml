@@ -12,5 +12,3 @@ service:
   type: NodePort
   port: 9090
   targetPort: 9090
-
-resources: {}
