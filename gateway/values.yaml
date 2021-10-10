@@ -1,0 +1,16 @@
+deploymentName: todo-server-gateway
+
+replicaCount: 1
+
+image:
+  repository: mitsugu1128/todo-server-gateway
+  pullPolicy: IfNotPresent
+  tag: v0.0.0
+
+service:
+  # gatewayをNodePortにして外部に公開
+  type: NodePort
+  port: 9090
+  targetPort: 9090
+
+resources: {}
