@@ -10,5 +10,5 @@ image:
 service:
   # gatewayをNodePortにして外部に公開
   type: NodePort
-  port: 9090
-  targetPort: 9090
+  port: 8080
+  targetPort: 8080
