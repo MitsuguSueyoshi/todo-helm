@@ -9,6 +9,6 @@ $ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.p
 
 で自動で作成されるsecretからパスワード取得したらログイン出来た。
 
-(多分仕様が変わって、参考にした記事が古かったのかも)
+(多分2.0から仕様が変わったのかも)
 
 https://qiita.com/none_ses/items/9f8b5f4617ed33ec20a1
