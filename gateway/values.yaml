@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   repository: mitsugu1128/todo-server-gateway
   pullPolicy: IfNotPresent
-  tag: v0.0.0
+  tag: v0.0.13
 
 service:
   # gatewayをNodePortにして外部に公開
